@@ -60,3 +60,54 @@ ul li {
   max-width: 400px;
   text-align: justify;
 }
+
+@media (max-width: 905px) {
+
+  .img-container {
+    display: none;
+  }
+
+  #info {
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .bio {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 40px 0 40px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  dl {
+    text-align: center;
+    margin: 20px auto;
+    padding: 0 40px 0 40px;
+    max-width: initial;
+  }
+
+  dt {
+    margin-top: 25px;
+  }
+
+  .project-description {
+    margin: auto;
+    max-width: 550px;
+  }
+
+  .project-image {
+    display: block;
+    margin: 10px auto;
+  }
+
+}
