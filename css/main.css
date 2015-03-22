@@ -1,0 +1,62 @@
+h2 {
+  color: rgb(120, 185, 153);
+  font-weight: 500;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  padding-left: 40px;
+}
+
+#info {
+  height: 800px;
+  overflow: scroll;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+ul {
+  margin-bottom: 15px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.social-icon {
+  width: 50px;
+}
+
+.img-container {
+  background-image: url("../Images/AdamSheafferColorSm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 69%;
+}
+
+.project-image {
+  width: 300px;
+}
+
+.project-description {
+  max-width: 350px;
+  text-align: justify;
+}
+
+.project-title {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.bio {
+  max-width: 400px;
+  text-align: justify;
+}
