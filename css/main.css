@@ -26,6 +26,10 @@ ul li {
   margin-right: 60px;
 }
 
+#info::-webkit-scrollbar {
+  width: 0 !important;
+}
+
 .social-icon {
   width: 50px;
 }
