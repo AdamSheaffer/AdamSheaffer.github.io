@@ -23,7 +23,7 @@ ul {
 ul li {
   list-style: none;
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 23px;
 }
 
 #info::-webkit-scrollbar {
