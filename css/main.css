@@ -1,4 +1,4 @@
-h2 {
+h1 {
   color: rgb(120, 185, 153);
   font-weight: 500;
 }
@@ -14,6 +14,8 @@ h2 {
   overflow: scroll;
   margin-top: 40px;
   margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 ul {
@@ -44,6 +46,7 @@ ul li {
   right: 0;
   bottom: 0;
   width: 69%;
+  height: 100vh;
 }
 
 .project-image {
@@ -65,18 +68,20 @@ ul li {
 }
 
 .bio {
-  max-width: 400px;
   text-align: justify;
+  font-size: 18px;
+  line-height: 2em;
 }
 
 @media (max-width: 905px) {
-
   .img-container {
     display: none;
   }
 
   #info {
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   h2 {
@@ -117,5 +122,4 @@ ul li {
     display: block;
     margin: 10px auto;
   }
-
 }
